@@ -65,7 +65,10 @@ cp -f $GITHUB_WORKSPACE/images/bg1.jpg package/luci-theme-argon/htdocs/luci-stat
 # msd_lite
 git clone --depth=1 https://github.com/ximiTech/luci-app-msd_lite package/luci-app-msd_lite
 git clone --depth=1 https://github.com/ximiTech/msd_lite package/msd_lite
-
+# frp
+git clone --depth=1 https://github.com/kuoruan/openwrt-frp
+# tailscale
+git clone --depth=1 https://github.com/CH3NGYZ/tailscale-openwrt
 # MosDNS
 git clone --depth=1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
 # Alist
